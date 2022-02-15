@@ -1,0 +1,10 @@
+{
+  "item.trialmod.big_stick": "Big Stick",
+  "item.trialmod.lead_ingot": "Lead Ingot",
+  "item.trialmod.raw_lead": "Raw Lead",
+
+  "block.trialmod.lead_ore_block": "Lead Ore",
+  "block.trialmod.lead_block": "Block of Lead",
+
+  "itemGroup.trialtab": "Trial Mod"
+}
