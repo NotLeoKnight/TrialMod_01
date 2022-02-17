@@ -2,6 +2,7 @@ package com.NotLeoKnight.trialmod.item;
 
 import com.NotLeoKnight.trialmod.TrialMod;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,6 +21,17 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> LEAD_PICKAXE = ITEMS.register("lead_pickaxe",
+            () -> new PickaxeItem(ModTiers.LEAD, 4, 1.2f,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> RAW_ORICHALCUM = ITEMS.register("raw_orichalcum",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> ORICHALCUM_INGOT = ITEMS.register("orichalcum_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

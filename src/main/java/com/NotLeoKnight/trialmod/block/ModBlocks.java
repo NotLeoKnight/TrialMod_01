@@ -26,7 +26,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Trial_Tab);
 
+    public static final RegistryObject<Block> ORICHALCUM_ORE_BLOCK = registerBlock("orichalcum_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Trial_Tab);
 
+    public static final RegistryObject<Block> ORICHALCUM_BLOCK = registerBlock("orichalcum_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Trial_Tab);
 
     private static  <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

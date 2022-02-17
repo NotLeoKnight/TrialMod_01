@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead_ingot"
+      "item": "minecraft:orichalcum_ingot"
     }
   },
   "result": {
-    "item": "minecraft:lead_block"
+    "item": "minecraft:orichalcum_block"
   }
 }

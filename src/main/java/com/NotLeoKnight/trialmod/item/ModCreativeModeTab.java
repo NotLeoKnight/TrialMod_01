@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab Trial_Tab = new CreativeModeTab("trialtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.BIGSTICK.get());
+            return new ItemStack(ModItems.ORICHALCUM_INGOT.get());
         }
     };
 }

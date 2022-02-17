@@ -2,9 +2,15 @@
   "item.trialmod.big_stick": "Big Stick",
   "item.trialmod.lead_ingot": "Lead Ingot",
   "item.trialmod.raw_lead": "Raw Lead",
+  "item.trialmod.lead_pickaxe": "Lead Pickaxe",
+  "item.trialmod.orichalcum_ingot": "Orichalcum Ingot",
+  "item.trialmod.raw_orichalcum": "Orichalcum Chunk",
+
 
   "block.trialmod.lead_ore_block": "Lead Ore",
   "block.trialmod.lead_block": "Block of Lead",
+  "block.trialmod.orichalcum_ore_block": "Orichalcum Remnant",
+  "block.trialmod.orichalcum_block": "Block of Orichalcum",
 
   "itemGroup.trialtab": "Trial Mod"
 }
