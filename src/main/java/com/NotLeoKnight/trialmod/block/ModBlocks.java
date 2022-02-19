@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORICHALCUM_BLOCK = registerBlock("orichalcum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Trial_Tab);
 
+    public static final RegistryObject<Block> NECRODERMIS_BLOCK = registerBlock("necrodermis_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.Trial_Tab);
+
     private static  <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

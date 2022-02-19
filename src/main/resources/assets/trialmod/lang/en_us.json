@@ -16,12 +16,23 @@
   "item.trialmod.orichalcum_leggings": "Orichalcum Leggings",
   "item.trialmod.orichalcum_boots": "Orichalcum Boots",
 
+  "item.trialmod.necrodermis_ingot": "Necrodermis Ingot",
+  "item.trialmod.raw_necrodermis": "Necrodermis Fragment",
+  "item.trialmod.necrodermis_sythe": "Necro Sythe",
+  "item.trialmod.necrodermis_paxel": "Necro Paxel",
+  "item.trialmod.necrodermis_helmet": "Necro Helmet",
+  "item.trialmod.necrodermis_chestplate": "Necro Chestplate",
+  "item.trialmod.necrodermis_leggings": "Necro Leggings",
+  "item.trialmod.necrodermis_boots": "Necro Boots",
+
 
   "block.trialmod.lead_ore_block": "Lead Ore",
   "block.trialmod.lead_block": "Block of Lead",
 
   "block.trialmod.orichalcum_ore_block": "Orichalcum Remnant",
   "block.trialmod.orichalcum_block": "Block of Orichalcum",
+
+  "block.trialmod.necrodermis_block": "Block of Necrodermis",
 
   "itemGroup.trialtab": "Trial Mod"
 }

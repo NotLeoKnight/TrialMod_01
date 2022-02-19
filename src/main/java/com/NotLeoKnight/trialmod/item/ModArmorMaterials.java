@@ -11,8 +11,17 @@ import net.minecraftforge.common.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ORICHALCUM("orichalcum", 40, new int[]{2, 5, 8, 3}, 30, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            4.0F, 3.0F, () -> Ingredient.of(ModItems.ORICHALCUM_INGOT.get()));
+    ORICHALCUM("orichalcum", 30, new int[]{2, 3, 5, 3}, 21,
+        SoundEvents.ARMOR_EQUIP_NETHERITE, 4F, 3F, () -> {
+            return Ingredient.of(ModItems.ORICHALCUM_INGOT.get());
+        }),
+
+    NECRODERMIS("necrodermis", 40, new int[]{2, 3, 5, 3}, 21,
+    SoundEvents.ARMOR_EQUIP_NETHERITE, 6F, 3F, () -> {
+        return Ingredient.of(ModItems.NECRODERMIS_INGOT.get());
+    });
+
+
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

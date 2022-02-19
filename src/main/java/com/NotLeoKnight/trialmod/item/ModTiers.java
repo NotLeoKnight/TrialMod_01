@@ -11,4 +11,7 @@ public class ModTiers {
     public static final ForgeTier ORICHALCUM = new ForgeTier(6, 2500, 12f, 7f, 20, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(ModItems.ORICHALCUM_INGOT.get()));
 
+    public static final ForgeTier NECRODERMIS = new ForgeTier(7, 4000, 14f, 5f, 20, BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(ModItems.NECRODERMIS_INGOT.get()));
+
 }

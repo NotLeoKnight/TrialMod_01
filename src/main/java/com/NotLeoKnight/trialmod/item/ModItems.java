@@ -1,7 +1,9 @@
 package com.NotLeoKnight.trialmod.item;
 
 import com.NotLeoKnight.trialmod.TrialMod;
-import com.NotLeoKnight.trialmod.item.custom.ModArmorItem;
+import com.NotLeoKnight.trialmod.item.custom.ModArmorRegenItem;
+import com.NotLeoKnight.trialmod.item.custom.ModArmorWaterItem;
+import com.NotLeoKnight.trialmod.item.custom.PaxelItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -58,7 +60,7 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
     public static final RegistryObject<Item> ORICHALCUM_HELMET = ITEMS.register("orichalcum_helmet",
-            () -> new ModArmorItem(ModArmorMaterials.ORICHALCUM, EquipmentSlot.HEAD,
+            () -> new ModArmorWaterItem(ModArmorMaterials.ORICHALCUM, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
     public static final RegistryObject<Item> ORICHALCUM_CHESTPLATE = ITEMS.register("orichalcum_chestplate",
@@ -73,9 +75,38 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ORICHALCUM, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
-
 //----------------------------------------------------------------------------------------------------------------------
 
+    public static final RegistryObject<Item> RAW_NECRODERMIS = ITEMS.register("raw_necrodermis",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_INGOT = ITEMS.register("necrodermis_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_HELMET = ITEMS.register("necrodermis_helmet",
+            () -> new ModArmorRegenItem(ModArmorMaterials.NECRODERMIS, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_CHESTPLATE = ITEMS.register("necrodermis_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.NECRODERMIS, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_LEGGINGS = ITEMS.register("necrodermis_leggings",
+            () -> new ArmorItem(ModArmorMaterials.NECRODERMIS, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_BOOTS = ITEMS.register("necrodermis_boots",
+            () -> new ArmorItem(ModArmorMaterials.NECRODERMIS, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_PAXEL = ITEMS.register("necrodermis_paxel",
+            () -> new PaxelItem(ModTiers.NECRODERMIS, 4, 1.2f,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> NECRODERMIS_SYTHE = ITEMS.register("necrodermis_sythe",
+            () -> new SwordItem(ModTiers.NECRODERMIS, 20, 1.4f,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+//----------------------------------------------------------------------------------------------------------------------
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

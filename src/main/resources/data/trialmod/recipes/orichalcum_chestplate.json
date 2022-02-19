@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "trialmod:orichalcum_ingot"
+    }
+  },
+  "result": {
+    "item": "trialmod:orichalcum_chestplate"
+  }
+}

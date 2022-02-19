@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "trialmod:raw_necrodermis"
+  },
+  "result": "trialmod:necrodermis_ingot",
+  "experience": 2.5,
+  "cookingtime": 250
+}
