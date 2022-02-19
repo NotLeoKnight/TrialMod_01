@@ -3,12 +3,23 @@
   "item.trialmod.lead_ingot": "Lead Ingot",
   "item.trialmod.raw_lead": "Raw Lead",
   "item.trialmod.lead_pickaxe": "Lead Pickaxe",
+
   "item.trialmod.orichalcum_ingot": "Orichalcum Ingot",
   "item.trialmod.raw_orichalcum": "Orichalcum Chunk",
+  "item.trialmod.orichalcum_sword": "Orichalcum Sword",
+  "item.trialmod.orichalcum_axe": "Orichalcum Battle Axe",
+  "item.trialmod.orichalcum_pickaxe": "Orichalcum Pickaxe",
+  "item.trialmod.orichalcum_shovel": "Orichalcum Shovel",
+  "item.trialmod.orichalcum_hoe": "Orichalcum Hoe",
+  "item.trialmod.orichalcum_helmet": "Orichalcum Helmet",
+  "item.trialmod.orichalcum_chestplate": "Orichalcum Chestplate",
+  "item.trialmod.orichalcum_leggings": "Orichalcum Leggings",
+  "item.trialmod.orichalcum_boots": "Orichalcum Boots",
 
 
   "block.trialmod.lead_ore_block": "Lead Ore",
   "block.trialmod.lead_block": "Block of Lead",
+
   "block.trialmod.orichalcum_ore_block": "Orichalcum Remnant",
   "block.trialmod.orichalcum_block": "Block of Orichalcum",
 

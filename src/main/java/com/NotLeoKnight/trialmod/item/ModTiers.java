@@ -6,9 +6,9 @@ import net.minecraftforge.common.ForgeTier;
 
 public class ModTiers {
     public static final ForgeTier LEAD = new ForgeTier(3, 1200, 1.5f, 3f, 10, BlockTags.NEEDS_STONE_TOOL,
-            () -> Ingredient.of(ModItems.RAW_LEAD.get()));
+            () -> Ingredient.of(ModItems.LEAD_INGOT.get()));
 
     public static final ForgeTier ORICHALCUM = new ForgeTier(6, 2500, 12f, 7f, 20, BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ModItems.RAW_ORICHALCUM.get()));
+            () -> Ingredient.of(ModItems.ORICHALCUM_INGOT.get()));
 
 }

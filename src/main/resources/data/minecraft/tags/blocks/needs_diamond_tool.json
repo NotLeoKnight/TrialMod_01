@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "trialmod:orichalcum_ore_block"
+    "trialmod:orichalcum_ore_block",
+    "trialmod:orichalcum_block"
   ]
 }
