@@ -1,6 +1,7 @@
 package com.NotLeoKnight.trialmod;
 
 import com.NotLeoKnight.trialmod.block.ModBlocks;
+import com.NotLeoKnight.trialmod.core.EntityInit;
 import com.NotLeoKnight.trialmod.item.ModItems;
 import com.NotLeoKnight.trialmod.util.ModTags;
 import net.minecraft.world.level.block.Blocks;
@@ -27,7 +28,7 @@ public class TrialMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
-
+        EntityInit.ENTITIES.register(eventBus);
         ModTags.register();
 
         eventBus.addListener(this::setup);
