@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> BIGSTICK = ITEMS.register("big_stick",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
+    public static final RegistryObject<Item> BIGBIGSTICK = ITEMS.register("big_big_stick",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
 //----------------------------------------------------------------------------------------------------------------------
 
     public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead",
