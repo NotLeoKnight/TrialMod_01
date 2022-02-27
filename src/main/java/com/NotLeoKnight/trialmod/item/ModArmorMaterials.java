@@ -5,6 +5,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.util.Lazy;
 
@@ -19,6 +20,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
     NECRODERMIS("necrodermis", 40, new int[]{2, 3, 5, 3}, 21,
     SoundEvents.ARMOR_EQUIP_NETHERITE, 6F, 3F, () -> {
         return Ingredient.of(ModItems.NECRODERMIS_INGOT.get());
+    }),
+    CAKE("cake", 25, new int[]{2, 4, 5, 3}, 50,
+    SoundEvents.CAKE_ADD_CANDLE, 0, .3F, () -> {
+        return Ingredient.of(Items.CAKE);
     });
 
 

@@ -2,14 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "X X",
-    "X X"
+    "XXX",
+    "XXX"
   ],
   "key": {
     "X": {
-      "item": "trailmod:necrodermis_ingot"
+      "item": "minecraft:cake"
     }
   },
   "result": {
-    "item": "trialmod:necrodermis_boots"
+    "item": "trialmod:cake_chestplate"
   }
 }

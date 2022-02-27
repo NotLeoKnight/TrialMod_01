@@ -110,6 +110,22 @@ public class ModItems {
             () -> new SwordItem(ModTiers.NECRODERMIS, 20, 1.4f,
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 //----------------------------------------------------------------------------------------------------------------------
+public static final RegistryObject<Item> CAKE_HELMET = ITEMS.register("cake_helmet",
+        () -> new ModArmorWaterItem(ModArmorMaterials.CAKE, EquipmentSlot.HEAD,
+                new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CAKE_CHESTPLATE = ITEMS.register("cake_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.CAKE, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CAKE_LEGGINGS = ITEMS.register("cake_leggings",
+            () -> new ArmorItem(ModArmorMaterials.CAKE, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CAKE_BOOTS = ITEMS.register("cake_boots",
+            () -> new ArmorItem(ModArmorMaterials.CAKE, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
