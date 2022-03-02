@@ -3,6 +3,7 @@ package com.NotLeoKnight.trialmod;
 import com.NotLeoKnight.trialmod.block.ModBlocks;
 import com.NotLeoKnight.trialmod.core.EntityInit;
 import com.NotLeoKnight.trialmod.item.ModItems;
+import com.NotLeoKnight.trialmod.sound.ModSounds;
 import com.NotLeoKnight.trialmod.util.ModTags;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,7 @@ public class TrialMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModSounds.register(eventBus);
         EntityInit.ENTITIES.register(eventBus);
         ModTags.register();
 
