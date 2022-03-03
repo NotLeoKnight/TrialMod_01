@@ -2,7 +2,8 @@
   "axe_music": {
     "subtitle": "trialmod.axe_music",
     "sounds": [
-      "trialmod:axe_music"
+      "trialmod:axe_music-1",
+      "trialmod:axe_music-2"
     ]
   }
 }
