@@ -25,7 +25,7 @@ public class AxeGuitarItem extends SwordItem {
         Player player = pContext.getPlayer();
         if (pContext.getLevel().isClientSide) {
             pContext.getLevel().playLocalSound( player.getX(), player.getY(), player.getZ(),  ModSounds.AXE_MUSIC.get(),
-                    SoundSource.BLOCKS, 100f, 1f, false);
+                    SoundSource.BLOCKS, 3f, 1f, false);
 
         }
 
