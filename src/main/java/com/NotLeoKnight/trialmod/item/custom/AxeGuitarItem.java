@@ -23,11 +23,10 @@ public class AxeGuitarItem extends SwordItem {
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
         Player player = pContext.getPlayer();
-        if (pContext.getLevel().isClientSide) {
-            pContext.getLevel().playLocalSound( player.getX(), player.getY(), player.getZ(),  ModSounds.AXE_MUSIC.get(),
-                    SoundSource.BLOCKS, 3f, 1f, false);
+        pContext.getLevel().playLocalSound( player.getX(), player.getY(), player.getZ(),  ModSounds.AXE_MUSIC.get(),
+                SoundSource.BLOCKS, 3f, 1f, false);
 
-        }
+
 
 
         return super.useOn(pContext);

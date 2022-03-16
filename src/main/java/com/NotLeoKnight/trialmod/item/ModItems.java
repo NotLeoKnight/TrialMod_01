@@ -1,10 +1,7 @@
 package com.NotLeoKnight.trialmod.item;
 
 import com.NotLeoKnight.trialmod.TrialMod;
-import com.NotLeoKnight.trialmod.item.custom.AxeGuitarItem;
-import com.NotLeoKnight.trialmod.item.custom.ModArmorRegenItem;
-import com.NotLeoKnight.trialmod.item.custom.ModArmorWaterItem;
-import com.NotLeoKnight.trialmod.item.custom.PaxelItem;
+import com.NotLeoKnight.trialmod.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -132,6 +129,26 @@ public class ModItems {
     public static final RegistryObject<Item> AXE_GUITAR = ITEMS.register("axe_guitar",
             () -> new AxeGuitarItem(ModTiers.NECRODERMIS, 4, 1.2f,
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CLOUD = ITEMS.register("cloud",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CLOUD_HELMET = ITEMS.register("cloud_helmet",
+            () -> new ModArmorSpeedItem(ModArmorMaterials.CLOUD, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CLOUD_CHESTPLATE = ITEMS.register("cloud_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.CLOUD, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CLOUD_LEGGINGS = ITEMS.register("cloud_leggings",
+            () -> new ArmorItem(ModArmorMaterials.CLOUD, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
+    public static final RegistryObject<Item> CLOUD_BOOTS = ITEMS.register("cloud_boots",
+            () -> new ArmorItem(ModArmorMaterials.CLOUD, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
+
 
 
     public static void register(IEventBus eventBus) {

@@ -24,6 +24,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
     CAKE("cake", 25, new int[]{2, 4, 5, 3}, 50,
     SoundEvents.CAKE_ADD_CANDLE, 0, .3F, () -> {
         return Ingredient.of(Items.CAKE);
+    }),
+
+    CLOUD("cloud", 25, new int[]{2, 4, 5, 3}, 50,
+    SoundEvents.WEATHER_RAIN, 0, .3F, () -> {
+        return Ingredient.of(ModItems.CLOUD.get());
     });
 
 
