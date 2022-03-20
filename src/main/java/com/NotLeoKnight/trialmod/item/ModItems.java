@@ -100,9 +100,6 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.NECRODERMIS, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
-    public static final RegistryObject<Item> NECRODERMIS_PAXEL = ITEMS.register("necrodermis_paxel",
-            () -> new PaxelItem(ModTiers.NECRODERMIS, 4, 1.2f,
-                    new Item.Properties().tab(ModCreativeModeTab.Trial_Tab)));
 
     public static final RegistryObject<Item> NECRODERMIS_SYTHE = ITEMS.register("necrodermis_sythe",
             () -> new SwordItem(ModTiers.NECRODERMIS, 20, 1.4f,
